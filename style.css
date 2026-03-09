@@ -22,13 +22,16 @@ header {
     flex-wrap: wrap;
     font-family:Arial, sans-serif;
 }
+.main{
+    background-color:rgb(87, 126, 91) ;
+    text-align: center;
+    padding: 40px;
+}
+
 .logo{
 font-size: 2rem;
 font-weight: bold;
 }
-
-
-
 
 @media (max-width: 800px) {
 header {
@@ -45,11 +48,25 @@ header {
 #current-updates {
     text-align:center;
     background-color:rgb(40, 29, 29);
+    padding: 30px ;
+
+}
+#current-updates button{
+padding:10px;
 
 
 }
 
+nav a{
+color: rgb(79, 107, 179);
+text-decoration: none;
+margin-left:15px
 
+}
+nav a:hover {
+
+    color:red
+}
 
 
 }
