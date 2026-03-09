@@ -1,0 +1,27 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+body {
+    background-color: rgb(170, 149, 121);
+    color: rgb(241, 238, 234);
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+
+}
+header {
+    color: rgb(250, 250, 250);
+    background-color:rgb(143, 138, 138) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+.logo{
+font-size: 2rem;
+font-weight: bold;
+}
